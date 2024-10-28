@@ -12,6 +12,9 @@ add_executable(csat_solver
     src/Solver.cpp
     src/Parser.hpp
     src/Parser.cpp
+    src/Literal.hpp
+    src/Clause.hpp
+    src/Clause.cpp
 )
 
 target_compile_options(csat_solver PRIVATE -std=c++20 -Wall)
